@@ -1,0 +1,21 @@
+[{
+        "category": "Web Development",
+        "skills": ["HTML", "CSS", "tailwindcss", "JavaScript", "Django", "React"],
+        "imageSrc": "skills/web-development-svgrepo-com.png"
+    },
+    {
+        "category": "Deep Learning& Machine Learning",
+        "skills": ["TensorFlow", "PyTorch", "Keras", "Natural Language Processing", "Computer Vision"],
+        "imageSrc": "skills/machine-learning-01-svgrepo-com.png"
+    },
+    {
+        "category": "Data Science & Analytics",
+        "skills": ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+        "imageSrc": "skills/analytics-svgrepo-com (1).png"
+    },
+    {
+        "category": "Tools",
+        "skills": ["Git", "Docker", "Figma", "Jupyter Notebook"],
+        "imageSrc": "skills/tools-svgrepo-com.png"
+    }
+]

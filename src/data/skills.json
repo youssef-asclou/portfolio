@@ -1,0 +1,77 @@
+[{
+        "title": "JavaScript",
+        "imageSrc": "skills/javascript.png"
+    }, {
+        "title": "HTML",
+        "imageSrc": "skills/html.png"
+    }, {
+        "title": "Django",
+        "imageSrc": "skills/django.png"
+    },
+    {
+        "title": "CSS",
+        "imageSrc": "skills/css.png"
+    },
+    {
+        "title": "Python",
+        "imageSrc": "skills/python.png"
+    },
+
+    {
+        "title": "TensorFlow",
+        "imageSrc": "skills/tensorflew.png"
+    },
+
+
+
+    {
+        "title": "Pandas",
+        "imageSrc": "skills/pandas.png"
+    },
+    {
+        "title": "PyTorch",
+        "imageSrc": "skills/pytorch.png"
+    },
+    {
+        "title": "Keras",
+        "imageSrc": "skills/Keras.png"
+    },
+    {
+        "title": "NumPy",
+        "imageSrc": "skills/numpy.png"
+    },
+    {
+        "title": "Matplotlib",
+        "imageSrc": "skills/Matplotlib.png"
+    }, {
+        "title": "Seaborn",
+        "imageSrc": "skills/Seaborn.png"
+    },
+
+
+    {
+        "title": "Git",
+        "imageSrc": "skills/git.png"
+    },
+    {
+        "title": "Docker",
+        "imageSrc": "skills/docker.png"
+    },
+    {
+        "title": "Figma",
+        "imageSrc": "skills/figma.png"
+    },
+
+    {
+        "title": "Jupyter Notebook",
+        "imageSrc": "skills/jupyter.png"
+    },
+    {
+        "title": "React",
+        "imageSrc": "skills/react.png"
+    }, {
+        "title": "tailwindcss",
+        "imageSrc": "skills/tailwindcss.png"
+    }
+
+]

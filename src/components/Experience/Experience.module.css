@@ -1,0 +1,225 @@
+@import "../../vars.css";
+.container {
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+
+/* Skills Section */
+
+.skills {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.category {
+    width: 100%;
+}
+
+.categoryTitle {
+    color: var(--color-text);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.skillsList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 30px 20px;
+    justify-items: center;
+}
+
+.skillCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 120px;
+    transition: transform 0.3s ease;
+}
+
+.skillCard:hover {
+    transform: translateY(-5px);
+}
+
+.skillImageContainer {
+    background-color: var(--color-secondary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.skillImageContainer:hover {
+    background-color: var(--color-primary);
+}
+
+.skillImage {
+    width: 75px;
+    height: auto;
+    object-fit: contain;
+}
+
+.skillCard p {
+    font-size: 16px;
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    color: var(--color-text);
+}
+
+
+/* History Section */
+
+.history {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.historyItem {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 17px;
+    background: #19376d;
+    background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+    border-radius: 10px;
+    padding: 24px;
+    transition: transform 0.3s ease;
+}
+
+.historyItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.historyItemImage {
+    width: 50px;
+    height: auto;
+}
+
+.historyItemDetails {
+    flex: 1;
+}
+
+.historyItemDetails h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 16px 0;
+    color: var(--color-text);
+}
+
+.historyItemDetails ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.historyItemDetails li {
+    color: var(--color-text);
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills,
+    .history {
+        width: 100%;
+    }
+    .skillsList {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 25px 15px;
+    }
+    .skillCard {
+        max-width: 100px;
+    }
+    .skillImageContainer {
+        width: 100px;
+        height: 100px;
+    }
+    .skillImage {
+        width: 60px;
+    }
+    .historyItem {
+        padding: 20px;
+    }
+    .historyItemDetails h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        margin: 60px 20px;
+    }
+    .title {
+        font-size: 28px;
+    }
+    .skillsList {
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+        gap: 20px 10px;
+    }
+    .skillCard {
+        max-width: 80px;
+    }
+    .skillImageContainer {
+        width: 80px;
+        height: 80px;
+        padding: 15px;
+    }
+    .skillImage {
+        width: 45px;
+    }
+    .skillCard p {
+        font-size: 14px;
+    }
+    .historyItemDetails li {
+        font-size: 14px;
+    }
+}

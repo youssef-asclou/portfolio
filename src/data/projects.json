@@ -1,0 +1,28 @@
+[{
+        "title": "Text-To-Speech",
+        "imageSrc": "projects/project.png",
+        "description": "This project aims to create a high-quality Text-to-Speech system using deep learning models like Tacotron 2 and WaveNet. It includes a web app built with React, styled with Tailwind CSS, and a Django backend.",
+
+        "skills": ["Tacotron2", "WaveNet", "React", " Tailwind CSS", "Django"],
+        "demo": "https://www.example.com",
+        "source": "https://github.com/youssef-asclou/TTS_SPEECH_PROJECT"
+    },
+
+    {
+        "title": "Image Fusion",
+        "imageSrc": "projects/project.png",
+        "description": "This project focuses on merging multi-focus images to enhance visual quality using deep learning techniques. It features a user-friendly interface for uploading, visualizing, and downloading fused images.",
+        "skills": ["Image Fusion", "Deep Learning", "CNN", "Python", "OpenCV"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },
+    {
+        "title": "Darija-to-English Translator",
+        "imageSrc": "projects/project.png",
+        "description": "This project is a web application for translating Darija to English using LSTM-based machine learning models. Built with Django for the backend, Bootstrap for the frontend, and designed for real-time text translation.",
+        "skills": ["LSTM", "NLP", "Machine Learning", "Django", "Bootstrap"],
+        "demo": "https://www.example.com",
+        "source": "https://github.com/youssef-asclou/traducteur-darija"
+    }
+
+]
